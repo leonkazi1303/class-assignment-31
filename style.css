@@ -1,0 +1,165 @@
+
+
+.banner-setion .button .btn {
+    background: #8491ff;
+    color: white;
+    transition: .4s;
+}
+
+.about-section .button .btn {
+    background: #8491ff;
+    color: white;
+    transition: .4s;
+}
+
+.button .btn:hover {
+    background: black;
+    color: white;
+}
+
+.table-section .card h1 {
+
+    display: inline-block;
+    background: rgb(248, 248, 248);
+    width: 100px;
+    height: 100px;
+    line-height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: .2s;
+
+
+}
+
+.table-section .card:hover h1 {
+    border: 5px solid #8491ff;
+}
+
+.review-section {
+    background: #8491ff;
+}
+
+.table-section .card h5 {
+    font-weight: 600;
+}
+
+.table-section .card ul li {
+    color: rgb(116, 116, 116);
+    font-size: 19px;
+    line-height: 50px;
+}
+
+.table-section .card {
+    margin-top: 20px;
+    transition: .4s;
+}
+
+.table-section .card:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
+    background: rgb(228, 245, 252);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 50%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 50%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 50%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f5fc', endColorstr='#2ab0ed', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    transform: translateY(15px);
+}
+
+.table-section .button .btn {
+    border: 2px solid #8491ff;
+    color: #8491ff;
+    box-shadow: 0 0 10px #8491ff;
+    transition: .4s;
+}
+
+.table-section .card:hover .btn {
+    background: #8491ff;
+    color: white;
+    box-shadow: none;
+
+}
+
+.programmer-section {
+    margin: 130px 0 50px 0;
+}
+
+.programmer-section .card {
+    box-shadow: 0 0 20px rgba(153, 153, 153, 0.867);
+    position: relative;
+}
+
+.programmer-section .card .box-image {
+    width: 100px;
+    position: absolute;
+    top: -70px;
+    left: 20px;
+    transition: .4s;
+}
+
+.programmer-section .card:hover .box-image {
+    transform: translateX(55px);
+}
+
+.programmer-section .card .box-image img {
+    max-width: 100%;
+}
+
+.programmer-section .card .card-link {
+    padding: 6px 15px;
+    box-shadow: 3px 9px 10px #ddd;
+    border: 2px solid #8490ff00;
+    transition: .4s;
+}
+
+.programmer-section .card .card-link:hover {
+    border: 2px solid #8491ff;
+    box-shadow: none;
+}
+
+.form-section {
+    padding: 70px 0;
+}
+
+.form-section .card {
+    margin-top: 40px;
+}
+
+.form-section .card .button2 .btn {
+    background: #17a2b8;
+    color: white;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.form-section .card .button2 .btn:hover {
+    background: black;
+}
+
+.form-left {
+    padding: 100px 39px;
+}
+
+.form-section .form-left h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-section .form-left h4 {
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.footer-section {
+    text-align: center;
+    background: #000;
+}
+
+.footer-section h6 {
+    font-weight: 600;
+    color: white;
+    padding: 30px 0;
+}
